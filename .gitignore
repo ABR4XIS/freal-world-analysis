@@ -1,0 +1,4 @@
+__pycache__/
+.venv/
+libc.so.6
+.DS_Store
