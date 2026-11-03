@@ -8,7 +8,7 @@ PwnSec에서 대회 중 ROP로 해결한 문제를, 대회 후 House of Apple 2 
 - 대회 후: 같은 읽기·쓰기 조건에서 fake FILE과 wide vtable을 구성해 셸을 얻었습니다.
 - 2026년 11월 3일: 문제 ZIP을 다시 확보해 저장소에 추가했습니다. 이번 업로드 과정에서 바이너리 실행이나 풀이 재현은 하지 않았습니다.
 
-공개한 코드는 대회 후 Notion에 정리한 FSOP 풀이입니다. 대회 중 사용한 ROP 코드가 이 저장소에 포함된 것은 아닙니다.
+공개한 코드는 대회 후 다시 정리한 FSOP 풀이입니다. 대회 중 사용한 ROP 코드가 이 저장소에 포함된 것은 아닙니다.
 
 ## 파일
 
@@ -56,7 +56,5 @@ LIBC=/path/to/matching/libc.so.6 python3 exploit_fsop.py
 
 기본 대상은 `127.0.0.1:9999`입니다. `HOST`, `PORT`, `LIBC` 환경 변수로 접속 대상과 libc 경로를 지정할 수 있습니다. 위 명령은 사용 방법이며 이번에 성공을 검증한 실행 절차가 아닙니다.
 
-## 원본 기록
-
-- [대회 후 작성한 Notion 분석과 전체 코드](https://www.notion.so/3d9d1b2618d080239277cac3a6a5cf51)
+## 관련 기록
 - [포트폴리오의 한국어 분석](https://abr4xis.github.io/cases/pwnsec/)
